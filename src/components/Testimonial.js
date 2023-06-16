@@ -29,14 +29,14 @@ const Testimonial = () => {
     );
   });
   return (
-    <div className="flex py-12">
-      <div className="testimonial-container flex flex-col basis-1/2 pl-28">
-        <h2 className="text-4xl font-extrabold mb-8 text-blue-950">TimeNow is used by the most influential people</h2>
-        <div className="flex pr-6">{mappedData}</div>
+    <div className="flex flex-col lg:flex-row py-12">
+      <div className="testimonial-container flex flex-col basis-1/2 lg:pl-28 pl-8">
+        <h2 className="lg:text-4xl text-4xl font-extrabold mb-8 text-blue-950 lg:mx-0 pr-3">TimeNow is used by the most influential people</h2>
+        <div className="flex lg:pr-8 mb-4">{mappedData}</div>
       </div>
 
-      <div className="left basis-1/2 px-12">
-        <p className="text-xl">The most influential people on Facebook, Twitter, and Instagram are using TweetNow to Schedule posts when their followers are most active.</p>
+      <div className="left basis-1/2 lg:px-12 px-8">
+        <p className="lg:text-xl">The most influential people on Facebook, Twitter, and Instagram are using TweetNow to Schedule posts when their followers are most active.</p>
         <p className="text-xl mt-8">They generally receive 23% more engagemnet than people who do not</p>
       </div>
     </div>

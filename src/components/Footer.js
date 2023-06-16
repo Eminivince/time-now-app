@@ -5,7 +5,7 @@ import Button from './Button'
 const Footer = () => {
   return (
     <div>
-        <div className='footer-container flex pl-28 py-8'>
+        <div className='footer-container flex pl-28 py-8 flex-col lg:flex-row'>
             <div className='footer--links flex flex-col basis-1/2'>
                 <div className='logo--holder mb-4'>
                     <img src={Logo} alt='logo' />

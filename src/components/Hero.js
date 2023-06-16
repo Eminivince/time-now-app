@@ -12,14 +12,16 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="hero--container flex  pl-28 ">
+      <div className="hero--container flex flex-col lg:flex-row lg:pl-28 pl-8 ">
         <div className="left--hero basis-1/2 bg-white pt-10">
-          <Navbar />
-          <div className="mt-20 mr-8">
-            <h1 className="text-6xl font-extrabold text-blue-950">
+          <div>
+            <Navbar />
+          </div>
+          <div className="mt-20 lg:mr-8 ">
+            <h1 className="lg:text-6xl text-4xl font-extrabold text-blue-950">
               Post when your audience is most active
             </h1>
-            <p className="mt-6 mr-12 text-xl">
+            <p className="mt-6 lg:mr-12 lg:text-xl">
               With TimeNow, automatically schedule your posts on Twitter,
               LinkedIn, and Instagram to post when your followers are most
               active.
@@ -45,7 +47,7 @@ const Hero = () => {
         {/* Right Hero */}
         <div className="basis-1/2 pt-10 bg-teal-500 pl-6">
           <div className="flex flex-col">
-            <div className="self-end mr-14">{startSchedulingBtn}</div>
+            <div className="self-end mr-14 lg:block hidden">{startSchedulingBtn}</div>
             <div className="pb-16">
               <img src={Mockup} alt="Mockup" className="mt-8" />
             </div>
