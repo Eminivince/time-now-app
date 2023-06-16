@@ -12,12 +12,12 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="hero--container flex flex-col lg:flex-row lg:pl-28 pl-8 ">
+      <div className="hero--container flex flex-col lg:flex-row lg:pl-28">
         <div className="left--hero basis-1/2 bg-white pt-10">
           <div>
             <Navbar />
           </div>
-          <div className="mt-20 lg:mr-8 ">
+          <div className="mt-20 lg:mr-8 pl-8 md:pl-0">
             <h1 className="lg:text-6xl text-4xl font-extrabold text-blue-950">
               Post when your audience is most active
             </h1>
@@ -32,7 +32,7 @@ const Hero = () => {
                 View Demo
               </a>
             </div>
-            <div className="learn-more flex items-center mt-6">
+            <div className="learn-more flex items-center mt-6 mb-3">
               <img src={verified} alt="green" className="w-7 mr-2" />
               <p className="text-sm">
                 TimeNow does not sell your data.{" "}

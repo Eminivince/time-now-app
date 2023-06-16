@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Moreinfo = () => {
   return (
-    <div className="ml-8 flex py-12 bg-teal-300 flex-col lg:flex-row">
+    <div className="pl-8 lg:ml-0 lg:pl-28 flex py-12 bg-teal-300 flex-col lg:flex-row">
       <div className="basis-1/2 pr-6">
         <p className="mb-5 text-blue-950 font-bold">Unified Dashboard</p>
         <h3 className="font-bold text-4xl mb-5">
