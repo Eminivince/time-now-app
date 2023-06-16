@@ -37,7 +37,7 @@ const Testimonial = () => {
 
       <div className="left basis-1/2 lg:px-12 px-8">
         <p className="lg:text-xl">The most influential people on Facebook, Twitter, and Instagram are using TweetNow to Schedule posts when their followers are most active.</p>
-        <p className="text-xl mt-8">They generally receive 23% more engagemnet than people who do not</p>
+        <p className="md:text-xl mt-8 ">They generally receive 23% more engagemnet than people who do not</p>
       </div>
     </div>
   );
